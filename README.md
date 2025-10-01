@@ -28,7 +28,7 @@ This project walks through **data acquisition → investigation → cleaning →
 
 - Load the housing dataset from `train.csv`.
 - Display first 5 rows and dataset shape.
-- Save a copy of the loaded dataset as:
+- Loaded dataset:
   - [`data/train_loaded.csv`](data/train_loaded.csv)
 
 ---
@@ -40,7 +40,7 @@ This project walks through **data acquisition → investigation → cleaning →
   - Number of rows/columns
   - Sample rows
   - Example columns
-- Save reports as:
+- Reports:
   - [`data/problem2_investigation.md`](data/problem2_investigation.md)
   - [`data/problem2_investigation.txt`](data/problem2_investigation.txt)
 
@@ -51,7 +51,7 @@ This project walks through **data acquisition → investigation → cleaning →
 - Inspect data types.
 - Check target variable `SalePrice`.
 - Generate summary statistics for numerical columns.
-- Save reports as:
+- Reports:
   - [`data/problem3_checking_data.md`](data/problem3_checking_data.md)
   - [`data/problem3_checking_data.txt`](data/problem3_checking_data.txt)
 
@@ -64,7 +64,7 @@ This project walks through **data acquisition → investigation → cleaning →
 - Calculate percentage of missing values.
 - Drop columns with 5 or more missing values.
 - Drop rows still containing missing values afterward.
-- Save cleaned dataset and report as:
+- Cleaned dataset and report:
   - [`data/train_cleaned.csv`](data/train_cleaned.csv)
   - [`data/problem4_missing_report.md`](data/problem4_missing_report.md)
 - Missing values plot:
@@ -76,10 +76,9 @@ This project walks through **data acquisition → investigation → cleaning →
 
 - Summarize **kurtosis** and **skewness**.
 - Understand their role in describing distribution shapes.
-- Save research as:
+- Research:
   - [`data/problem5_terminology.md`](data/problem5_terminology.md)
-  - [`data/problem5_terminology.txt`](data/problem5_terminology.txt)
-
+  
 ---
 
 ### **[Problem 6] Confirming Distribution**
@@ -89,7 +88,7 @@ This project walks through **data acquisition → investigation → cleaning →
 - Apply logarithmic transformation: `np.log1p(SalePrice)`.
 - Re-plot and recalculate metrics.
 - Compare original vs transformed distributions.
-- Reports saved as:
+- Reports:
   - [`data/problem6_distribution.md`](data/problem6_distribution.md)
   - [`data/problem6_distribution.txt`](data/problem6_distribution.txt)
 - Plots saved in `plots/`:
@@ -107,7 +106,7 @@ This project walks through **data acquisition → investigation → cleaning →
 - Explain actual meaning of these features using **Kaggle Data Description**.
 - Identify 3 pairs of highly correlated features among the top 10.
 - Discuss **multicollinearity** and its impact in regression.
-- Reports and plots saved as:
+- Reports and plots:
   - [`data/problem7_correlation_report.md`](data/problem7_correlation_report.md)
   - [`data/problem7_correlation_report.txt`](data/problem7_correlation_report.txt)
 - Plots saved in `plots/`:
