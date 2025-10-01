@@ -29,7 +29,7 @@ This project walks through **data acquisition → investigation → cleaning →
 - Load the housing dataset from `train.csv`.
 - Display first 5 rows and dataset shape.
 - Save a copy of the loaded dataset as:
-  - `data/train_loaded.csv`
+  - [`data/train_loaded.csv`](data/train_loaded.csv)
 
 ---
 
@@ -41,7 +41,8 @@ This project walks through **data acquisition → investigation → cleaning →
   - Sample rows
   - Example columns
 - Save reports as:
-  - `data/problem2_investigation.md`
+  - [`data/problem2_investigation.md`](data/problem2_investigation.md)
+  - [`data/problem2_investigation.txt`](data/problem2_investigation.txt)
 
 ---
 
@@ -51,7 +52,8 @@ This project walks through **data acquisition → investigation → cleaning →
 - Check target variable `SalePrice`.
 - Generate summary statistics for numerical columns.
 - Save reports as:
-  - `data/problem3_checking_data.md`
+  - [`data/problem3_checking_data.md`](data/problem3_checking_data.md)
+  - [`data/problem3_checking_data.txt`](data/problem3_checking_data.txt)
 
 ---
 
@@ -63,10 +65,10 @@ This project walks through **data acquisition → investigation → cleaning →
 - Drop columns with 5 or more missing values.
 - Drop rows still containing missing values afterward.
 - Save cleaned dataset and report as:
-  - `data/train_cleaned.csv`
-  - `data/problem4_missing_report.md`
+  - [`data/train_cleaned.csv`](data/train_cleaned.csv)
+  - [`data/problem4_missing_report.md`](data/problem4_missing_report.md)
 - Missing values plot:
-  - `data/missing_values_matrix.png`
+  - [`data/missing_values_matrix.png`](data/missing_values_matrix.png)
 
 ---
 
@@ -75,8 +77,8 @@ This project walks through **data acquisition → investigation → cleaning →
 - Summarize **kurtosis** and **skewness**.
 - Understand their role in describing distribution shapes.
 - Save research as:
-  - `data/problem5_terminology.md`
-  - `data/problem5_terminology.txt`
+  - [`data/problem5_terminology.md`](data/problem5_terminology.md)
+  - [`data/problem5_terminology.txt`](data/problem5_terminology.txt)
 
 ---
 
@@ -88,11 +90,11 @@ This project walks through **data acquisition → investigation → cleaning →
 - Re-plot and recalculate metrics.
 - Compare original vs transformed distributions.
 - Reports saved as:
-  - `data/problem6_distribution.md`
-  - `data/problem6_distribution.txt`
+  - [`data/problem6_distribution.md`](data/problem6_distribution.md)
+  - [`data/problem6_distribution.txt`](data/problem6_distribution.txt)
 - Plots saved in `plots/`:
-  ![Original SalePrice Distribution](plots/problem6_saleprice_original.png)  
-  ![Log-Transformed SalePrice Distribution](plots/problem6_saleprice_log.png)
+  - ![Original SalePrice Distribution](plots/problem6_saleprice_original.png)
+  - ![Log-Transformed SalePrice Distribution](plots/problem6_saleprice_log.png)
 
 ---
 
@@ -106,10 +108,11 @@ This project walks through **data acquisition → investigation → cleaning →
 - Identify 3 pairs of highly correlated features among the top 10.
 - Discuss **multicollinearity** and its impact in regression.
 - Reports and plots saved as:
-  - `data/problem7_correlation_report.md`
+  - [`data/problem7_correlation_report.md`](data/problem7_correlation_report.md)
+  - [`data/problem7_correlation_report.txt`](data/problem7_correlation_report.txt)
 - Plots saved in `plots/`:
-  ![Correlation Heatmap All Features](plots/correlation_matrix_full.png)  
-  ![Correlation Heatmap Top 10 Features](plots/correlation_top10.png)
+  - ![Correlation Heatmap All Features](plots/correlation_matrix_full.png)
+  - ![Correlation Heatmap Top 10 Features](plots/correlation_top10.png)
 
 ---
 
@@ -131,6 +134,7 @@ This project walks through **data acquisition → investigation → cleaning →
 
 ```bash
 python main.py
+
 ```
 
 
@@ -156,4 +160,3 @@ python src/problem7_correlation_analysis.py
 
 **Date:** 01/10/2025
 
-```
